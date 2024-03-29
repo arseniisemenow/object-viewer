@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModelViewer</class>
+ <widget class="QWidget" name="ModelViewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y_>0</y_>
+    <width>90</width>
+    <height>90</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(140, 140, 140);</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+QLabel {
+   background-color: @gray2;
+   color: @gray11;
+   padding: 5px;
+   border: 1px solid @gray3;
+}

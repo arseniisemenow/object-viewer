@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>FileDialogStyles.qss</file>
+        <file>DockWidgetSettingsStyles.qss</file>
+        <file>MenuBarStyles.qss</file>
+        <file>MainWindowStyles.qss</file>
+        <file>TitleBarStyles.qss</file>
+        <file>PreferencesWindowStyles.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,56 @@
+QDockWidget{
+    background-color: @gray3;
+    padding: 0px;
+    margin: 0px;
+}
+
+QWidget{
+    background-color: @gray2;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+QComboBox {
+    border: 1px solid @gray10;
+    border-radius: 9px;
+    padding-left: 5px ; /*Added on ubuntu*/
+    background-color: @gray1;
+    color: @gray10;
+    selection-color: @gray11;
+    selection-background-color: @purple;
+    font-size: 11pt;
+}
+QComboBox::drop-down {
+    width: 50px;
+    border: none;
+    background-color: ;
+}
+QComboBox QAbstractItemView {
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background-color: @gray1;
+    color: @gray11;
+    selection-background-color: @gray2;
+}
+QComboBox QAbstractItemView::item:hover {
+    background-color: @purple;
+}
+QComboBox::down-arrow {
+    width: 0;
+    height: 0;
+}
+
+QPushButton#hideRightDockButton_checked {
+    border-image: url(:/show-right-dock-icon.png);
+    border: none;
+}
+
+QPushButton#hideRightDockButton {
+    border-image: url(:/hide-right-dock-icon.png);
+    border: none;
+}
+
+QLabel#cameraIconLabel {
+    border-image: url(:/camera-icon.png);
+}

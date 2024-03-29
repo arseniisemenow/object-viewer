@@ -1,0 +1,70 @@
+QDialog {
+    background-color: @gray2;
+}
+
+QLineEdit
+{
+background-color: @gray1;
+color: @gray11;
+border: 1px solid @gray6;
+border-radius: 10px;
+}
+
+QTreeView {
+    background-color: @gray3;
+}
+QTreeView::item {
+    background-color: @gray2;
+    border: 1px solid transparent;
+    color: @gray11;
+}
+QTreeView::item:selected {
+    background-color: @purpleAlpha;
+    color: @gray11;
+}
+    QTreeView::item:hover {
+    background-color: @gray3;
+}
+
+
+QHeaderView::section {
+    background-color: @gray1;
+    color: @gray11;
+}
+
+QPushButton#selectButton {
+    background-color: @gray3;
+    color: @gray11;
+    border: 1px solid @purple;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+QPushButton#selectButton:hover {
+    background-color: @gray4;
+}
+QPushButton#selectButton:pressed {
+    background-color: @gray5;
+}
+QPushButton#selectButton:disabled{
+    color: @gray6;
+    border: 1px solid @gray6;
+}
+
+QPushButton#cancelButton {
+    background-color: @gray3;
+    color: @gray11;
+    border: 1px solid @gray6;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+QPushButton#cancelButton:hover {
+    background-color: @gray3;
+}
+QPushButton#cancelButton:hover {
+    background-color: @gray4;
+}
+QPushButton#cancelButton:pressed {
+    background-color: @gray2;
+}

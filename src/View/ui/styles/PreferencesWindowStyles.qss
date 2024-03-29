@@ -1,0 +1,12 @@
+ColorPushButton {
+    text-align: left;
+    padding: 2px;
+}
+
+QTabWidget {
+    background-color: @gray1;
+}
+
+QSpinBox {
+    border-radius: 5px;
+}

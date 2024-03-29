@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icons"/>
+    <qresource prefix="/">
+        <file>company_logo.png</file>
+        <file>hide-right-dock-icon.png</file>
+        <file>camera-icon.png</file>
+        <file>show-right-dock-icon.png</file>
+    </qresource>
+</RCC>

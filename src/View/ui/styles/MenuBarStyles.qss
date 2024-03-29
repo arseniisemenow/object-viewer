@@ -1,0 +1,27 @@
+QMenuBar {
+    background-color: rgb(50,50,50);
+    color: rgb(240,240,240);
+}
+QMenuBar::item:selected {
+    background-color: rgb(70,70,70);
+    color: rgb(240,240,240);
+}
+QMenuBar QMenu {
+    background-color: rgb(50,50,50);
+    color: rgb(240,240,240);
+}
+
+QMenuBar QMenu::item {
+    background-color: rgb(50,50,50);
+    padding: 4px 10px;
+}
+
+QMenuBar QMenu::item:selected {
+    background-color: rgb(90,90,90);
+}
+QMenuBar::item:hover {
+    background-color: rgb(70,70,70);
+}
+QMenuBar::item:checked {
+    background-color: rgb(80, 80, 80);
+}
