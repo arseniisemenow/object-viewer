@@ -1,9 +1,8 @@
 ## 3DViewer v2.0 Project Overview
 
 ## Team members
-
-theseChains
-Asya11001
+- [theseChains](https://github.com/theseChains)
+- [asya11001](https://github.com/Asya11001)
 
 ### Introduction
 
